@@ -20,9 +20,7 @@
 api_data/v1
 doxygen/
 quantum/version.h
-*.bin
 *.eep
-*.hex
 *.qmk
 *.uf2
 *.vfw
