@@ -64,9 +64,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* ws2812 RGB LED */
 #define RGB_DI_PIN B6
-// #define RGBLIGHT_ANIMATIONS
-#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
-#define RGBLIGHT_EFFECT_RGB_TEST
+#define RGBLIGHT_ANIMATIONS
+// #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+// #define RGBLIGHT_EFFECT_RGB_TEST
 #define RGBLED_NUM 20    // Number of LEDs
 #define RGBLED_SPLIT { 10, 10 }
 

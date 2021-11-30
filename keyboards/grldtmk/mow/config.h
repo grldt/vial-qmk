@@ -52,10 +52,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SOFT_SERIAL_PIN D3
 #define SPLIT_USB_DETECT
 
-#define ENCODERS_PAD_A { B4 }
-#define ENCODERS_PAD_B { B5 }
-#define ENCODERS_PAD_A_RIGHT { B4 }
-#define ENCODERS_PAD_B_RIGHT { B5 }
+#define ENCODERS_PAD_A { B5 }
+#define ENCODERS_PAD_B { B4 }
+#define ENCODERS_PAD_A_RIGHT { B5 }
+#define ENCODERS_PAD_B_RIGHT { B4 }
 
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
