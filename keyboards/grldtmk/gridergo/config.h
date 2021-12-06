@@ -34,7 +34,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 7
 
 // Vial Keyboard ID - "python3 util/vial_generate_keyboard_uid.py"
-#define VIAL_KEYBOARD_UID {0x90, 0x10, 0x9C, 0xE7, 0xBC, 0x4F, 0x5A, 0x34}
+// #define VIAL_KEYBOARD_UID {0x90, 0x10, 0x9C, 0xE7, 0xBC, 0x4F, 0x5A, 0x34}
 
 // wiring of each half
 #define MATRIX_ROW_PINS { F5, F6, F7, B1, B3, B2 }
