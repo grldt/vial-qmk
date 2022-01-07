@@ -1,5 +1,5 @@
 /*
-Copyright 2018 Danny Nguyen <danny@keeb.io>
+Copyright 2021 Gerald Stephanus
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -21,26 +21,22 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0x6227
-#define PRODUCT_ID      0x0640
-#define DEVICE_VER      0x0002
+#define PRODUCT_ID      0xE007
+#define DEVICE_VER      0x0001
 #define MANUFACTURER    grldtmk
-#define PRODUCT         Ether
-#define DESCRIPTION     40 percent ergo keyboard with normal key size and arrows
+#define PRODUCT         Nomic-Ext
+#define DESCRIPTION     Arisu layout keyboard with pro micro
 
-#define VIAL_KEYBOARD_UID {0x1F, 0xDF, 0xDA, 0x30, 0x15, 0x3C, 0x3F, 0x52}
+/* vial uid: python3 util/vial_generate_keyboard_uid.py */
+#define VIAL_KEYBOARD_UID {0x5C, 0x31, 0x9F, 0x30, 0x04, 0xE6, 0x59, 0x5C}
 
 /* key matrix size */
-#define MATRIX_ROWS 8
-#define MATRIX_COLS 7
+#define MATRIX_ROWS 10
+#define MATRIX_COLS 8
 
 /* key matrix pins */
-#define MATRIX_ROW_PINS { D3, D2, F4, D1, D0, D4, C6, D7 }
-#define MATRIX_COL_PINS { E6, B4, B5, F5, F6, F7, B1 }
-
-#define ENCODERS_PAD_A { B2 }
-#define ENCODERS_PAD_B { B3 }
+#define MATRIX_ROW_PINS { F5, F7, B3, B6, B5, F4, F6, B1, B2, B4 }
+#define MATRIX_COL_PINS { D3, D2, D1, D0, D4, C6, D7, E6 }
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
-
-#define TAPPING_TERM 200

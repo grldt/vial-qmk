@@ -44,13 +44,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define DIODE_DIRECTION COL2ROW
 
-#define USE_SERIAL
-/* Split Defines */
-// #define SPLIT_HAND_PIN F4
-#define SPLIT_HAND_PIN D2
-/* serial.c configuration for split keyboard */
-#define SOFT_SERIAL_PIN D3
-#define SPLIT_USB_DETECT
+// #define USE_SERIAL
+// /* Split Defines */
+// // #define SPLIT_HAND_PIN F4
+// #define SPLIT_HAND_PIN D2
+// /* serial.c configuration for split keyboard */
+// #define SOFT_SERIAL_PIN D3
+// #define SPLIT_USB_DETECT
+
+// // Left only
+#define MASTER_LEFT
 
 #define ENCODERS_PAD_A { B4 }
 #define ENCODERS_PAD_B { B5 }
